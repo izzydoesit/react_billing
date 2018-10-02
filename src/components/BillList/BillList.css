@@ -1,0 +1,10 @@
+div.bill-list-wrapper {
+  margin: 1%;
+  padding: 1% 1% 1% 0;
+}
+
+ul.bill-list {
+  padding-left: 0;
+  line-height: 1.5em;
+  list-style: disc inside url(../../bill-icon-bullet.png);
+}

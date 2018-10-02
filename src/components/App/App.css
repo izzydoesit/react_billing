@@ -1,0 +1,17 @@
+/*
+COLOR PALETTE: 
+- Orange highlight: #f86028
+- Teal highlight: #00e3bc
+- Dark blue background: #175c6a
+- Teal dark highlight: #12c8c1
+- Teal light background: #e5fdf9
+- Gray border/text: #949598
+
+*/
+
+
+.App {
+  margin: 1%;
+  padding: 5%;
+  font-family: sans-serif;
+}

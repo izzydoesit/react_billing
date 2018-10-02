@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillList /> renders correctly 1`] = `
+<BillList
+  bills={Object {}}
+>
+  <div
+    className="bill-list-wrapper"
+  >
+    <ul
+      className="bill-list"
+    >
+      <li
+        className="empty-list-item"
+      >
+        No bills have been created...
+      </li>
+    </ul>
+  </div>
+</BillList>
+`;

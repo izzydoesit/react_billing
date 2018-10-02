@@ -1,0 +1,24 @@
+div.totals-wrapper {
+  margin: 1%;
+  padding: 1%;
+}
+
+p {
+  padding: 2%;
+  border: 1px solid #12c8c1;
+  background-color: #e5fdf9;
+  width: 20%;
+  color: #949598
+}
+
+.danger {
+  border: 2px solid #f86028;
+}
+
+.success {
+  border: 2px solid #08C6BE;
+}
+
+.pending {
+  border: 2px solid #FEC87D;
+}

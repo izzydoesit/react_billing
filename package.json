@@ -1,0 +1,28 @@
+{
+  "name": "clark-take-home",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "clark-utils": "^0.8.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prepublish": "yarn run build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-flow": "^6.23.0",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
+    "flow-bin": "^0.77.0",
+    "flow-typed": "^2.5.1"
+  }
+}

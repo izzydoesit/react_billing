@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bill /> renders correctly 1`] = `
+<Bill>
+  <li
+    className="bill-item"
+  >
+    <span
+      className="bill-id"
+    >
+      : 
+    </span>
+    <span
+      className="bill-amount"
+    >
+      , 
+    </span>
+    <span
+      className="bill-status"
+    >
+      , 
+    </span>
+    <span
+      className="bill-due-date"
+    />
+  </li>
+</Bill>
+`;

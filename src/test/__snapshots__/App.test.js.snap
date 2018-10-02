@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <Header>
+      <div
+        className="header-wrapper"
+      >
+        <header>
+          <h1
+            className="page-title"
+          >
+            Welcome to the Clark Take-Home Code Challenge
+          </h1>
+        </header>
+      </div>
+    </Header>
+    <Totals
+      bills={
+        Object {
+          "a": Object {
+            "amountInCents": 12300,
+            "dueDate": "2018-04-29",
+            "id": "a",
+            "status": "pending",
+          },
+          "b": Object {
+            "amountInCents": 1153,
+            "dueDate": "2017-08-19",
+            "id": "b",
+            "status": "paid",
+          },
+          "c": Object {
+            "amountInCents": 101363,
+            "dueDate": "2018-10-11",
+            "id": "c",
+            "status": "pending",
+          },
+          "d": Object {
+            "amountInCents": 789127,
+            "dueDate": "2018-11-30",
+            "id": "d",
+            "status": "pending",
+          },
+          "e": Object {
+            "amountInCents": 8129,
+            "dueDate": "2018-07-22",
+            "id": "e",
+            "status": "paid",
+          },
+          "f": Object {
+            "amountInCents": 93020,
+            "dueDate": "2018-06-06",
+            "id": "f",
+            "status": "pending",
+          },
+          "g": Object {
+            "amountInCents": 129308,
+            "dueDate": "2018-02-11",
+            "id": "g",
+            "status": "paid",
+          },
+          "h": Object {
+            "amountInCents": 39333,
+            "dueDate": "2018-01-15",
+            "id": "h",
+            "status": "paid",
+          },
+          "i": Object {
+            "amountInCents": 525222,
+            "dueDate": "2018-03-13",
+            "id": "i",
+            "status": "pending",
+          },
+        }
+      }
+    >
+      <div
+        className="totals-wrapper"
+      >
+        <p
+          className="all-total"
+        >
+          Total: 
+          <span
+            className="number-total"
+          >
+            $16,989.55
+          </span>
+        </p>
+        <p
+          className="paid-total success"
+        >
+          Paid: 
+          <span
+            className="number-total"
+          >
+            $1,779.23
+          </span>
+        </p>
+        <p
+          className="overdue-total danger"
+        >
+          Overdue: 
+          <span
+            className="number-total"
+          >
+            $6,305.42
+          </span>
+        </p>
+        <p
+          className="outstanding-total pending"
+        >
+          Outstanding: 
+          <span
+            className="number-total"
+          >
+            $8,904.90
+          </span>
+        </p>
+      </div>
+    </Totals>
+    <BillList
+      bills={
+        Object {
+          "a": Object {
+            "amountInCents": 12300,
+            "dueDate": "2018-04-29",
+            "id": "a",
+            "status": "pending",
+          },
+          "b": Object {
+            "amountInCents": 1153,
+            "dueDate": "2017-08-19",
+            "id": "b",
+            "status": "paid",
+          },
+          "c": Object {
+            "amountInCents": 101363,
+            "dueDate": "2018-10-11",
+            "id": "c",
+            "status": "pending",
+          },
+          "d": Object {
+            "amountInCents": 789127,
+            "dueDate": "2018-11-30",
+            "id": "d",
+            "status": "pending",
+          },
+          "e": Object {
+            "amountInCents": 8129,
+            "dueDate": "2018-07-22",
+            "id": "e",
+            "status": "paid",
+          },
+          "f": Object {
+            "amountInCents": 93020,
+            "dueDate": "2018-06-06",
+            "id": "f",
+            "status": "pending",
+          },
+          "g": Object {
+            "amountInCents": 129308,
+            "dueDate": "2018-02-11",
+            "id": "g",
+            "status": "paid",
+          },
+          "h": Object {
+            "amountInCents": 39333,
+            "dueDate": "2018-01-15",
+            "id": "h",
+            "status": "paid",
+          },
+          "i": Object {
+            "amountInCents": 525222,
+            "dueDate": "2018-03-13",
+            "id": "i",
+            "status": "pending",
+          },
+        }
+      }
+    >
+      <div
+        className="bill-list-wrapper"
+      >
+        <ul
+          className="bill-list"
+        >
+          <Bill
+            amount="$7,891.27"
+            dueDate="2018-11-30"
+            id="d"
+            key="0"
+            status="outstanding"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                d
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $7,891.27
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                outstanding
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-11-30
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$1,013.63"
+            dueDate="2018-10-11"
+            id="c"
+            key="1"
+            status="outstanding"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                c
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $1,013.63
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                outstanding
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-10-11
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$930.20"
+            dueDate="2018-06-06"
+            id="f"
+            key="2"
+            status="overdue"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                f
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $930.20
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                overdue
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-06-06
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$123.00"
+            dueDate="2018-04-29"
+            id="a"
+            key="3"
+            status="overdue"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                a
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $123.00
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                overdue
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-04-29
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$5,252.22"
+            dueDate="2018-03-13"
+            id="i"
+            key="4"
+            status="overdue"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                i
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $5,252.22
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                overdue
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-03-13
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$81.29"
+            dueDate="2018-07-22"
+            id="e"
+            key="5"
+            status="paid"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                e
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $81.29
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                paid
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-07-22
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$1,293.08"
+            dueDate="2018-02-11"
+            id="g"
+            key="6"
+            status="paid"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                g
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $1,293.08
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                paid
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-02-11
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$393.33"
+            dueDate="2018-01-15"
+            id="h"
+            key="7"
+            status="paid"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                h
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $393.33
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                paid
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2018-01-15
+              </span>
+            </li>
+          </Bill>
+          <Bill
+            amount="$11.53"
+            dueDate="2017-08-19"
+            id="b"
+            key="8"
+            status="paid"
+          >
+            <li
+              className="bill-item"
+            >
+              <span
+                className="bill-id"
+              >
+                b
+                : 
+              </span>
+              <span
+                className="bill-amount"
+              >
+                $11.53
+                , 
+              </span>
+              <span
+                className="bill-status"
+              >
+                paid
+                , 
+              </span>
+              <span
+                className="bill-due-date"
+              >
+                2017-08-19
+              </span>
+            </li>
+          </Bill>
+        </ul>
+      </div>
+    </BillList>
+  </div>
+</App>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Totals /> renders correctly 1`] = `
+<Totals
+  bills={Object {}}
+>
+  <div
+    className="totals-wrapper"
+  >
+    <p
+      className="all-total"
+    >
+      Total: 
+      <span
+        className="number-total"
+      >
+        0
+      </span>
+    </p>
+    <p
+      className="paid-total success"
+    >
+      Paid: 
+      <span
+        className="number-total"
+      >
+        0
+      </span>
+    </p>
+    <p
+      className="overdue-total danger"
+    >
+      Overdue: 
+      <span
+        className="number-total"
+      >
+        0
+      </span>
+    </p>
+    <p
+      className="outstanding-total pending"
+    >
+      Outstanding: 
+      <span
+        className="number-total"
+      >
+        0
+      </span>
+    </p>
+  </div>
+</Totals>
+`;
